@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Terrell's Top 5's</h1>
+      <p class="lead">Terrell's top five artists, influencers, and athletes.</p>
+    </div>
+</div>    
+<!-- cards container -->
+<div class="container justify-content-sm-center">
+    <div class="row">
+      <div class="col-sm">
+       <!-- Card 1 -->
+<div class="card cards" style="width: 18rem;">
+    <img class="card-img-top" src="../static/images/supah.jpg" alt="Charles">
+    <div class="card-body">
+      <h5 class="card-title">Artists</h5>
+      <p class="card-text">Here are some of my favorite artists who's lives and work are inspiring.</p>
+      <a href="#" class="btn btn-danger"><b>Listen</b></a>
+    </div>
+  </div>
+      </div>
+      <div class="col-sm">
+       <!-- Card 1 -->
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../static/images/lenora.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Influencers</h5>
+      <p class="card-text">Here are some of the people who's ideas challenge and change me.</p>
+      <a href="#" class="btn btn-danger"><b>Follow</b></a>
+    </div>
+  </div>
+      </div>
+      <div class="col-sm">
+        <!-- Card 1 -->
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="../static/images/zion.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Athletes</h5>
+      <p class="card-text">It's one thing to master your craft; it's an entirely different thing to compete with it.</p>
+      <a href="#" class="btn btn-danger"><b>Watch</b></a>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock content %}

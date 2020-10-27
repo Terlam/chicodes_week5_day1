@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>Artists</h1>
+    <ul>
+        {% for name in list_names %}
+        <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+    
+
+{% endblock content %}
